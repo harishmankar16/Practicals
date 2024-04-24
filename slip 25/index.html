@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Index page</title>
+    <!-- <script src="./changeBG.js"></script> -->
+</head>
+<body>
+    <h1>This is an simple html page</h1>
+</body>
+<script>
+    var arr=["red",'blue','green','yellow','pink','purple']
+
+function changeBackgroundColor(){
+
+    randomIndex = Math.floor(Math.random() * arr.length)
+    color=arr[randomIndex]
+    document.body.style.backgroundColor=color;
+}
+
+setInterval(() => { 
+    changeBackgroundColor()
+}, 5000);
+</script>
+</html>

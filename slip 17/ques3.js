@@ -1,0 +1,5 @@
+const os = require('os');
+const platform = os.platform();
+console.log("Platform is : ",platform);
+const tempFiles = os.tmpdir()
+console.log("Tempfiles>>",tempFiles);

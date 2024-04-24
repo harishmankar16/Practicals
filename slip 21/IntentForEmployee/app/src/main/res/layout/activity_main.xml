@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/firstName"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter First Name"
+/>
+   <EditText
+       android:id="@+id/middleName"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter Middle Name"
+/>
+   <EditText
+       android:id="@+id/lastname"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter Last Name"
+/>
+   <EditText
+       android:id="@+id/salary"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter Salary Name"
+
+       />
+
+   <EditText
+       android:id="@+id/address"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter Address"
+
+       />
+
+
+   <EditText
+       android:id="@+id/email"
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter Email"
+
+       />
+
+   <Button
+       android:id="@+id/btn"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+         android:text="Click here!!"
+       android:layout_height="wrap_content"
+/>
+
+
+</LinearLayout>
